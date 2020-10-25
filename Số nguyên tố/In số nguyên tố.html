@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>số nguyên tố</title>
+</head>
+<body>
+<button onclick="displayPrimeNumber()">In ra số nguyên tố</button>
+
+<script>
+    function displayPrimeNumber() {
+        let numberCount = +prompt("Nhập số lượng số nguyên tố cần in ra:");
+        let count = 0;
+        let intergerNum = 0;
+        while(count < numberCount){
+            if (isPrime(intergerNum)){
+                document.write(intergerNum + " ; ");
+                count ++;
+            }
+            intergerNum++;
+        }
+    }
+
+    function isPrime(num) {
+        for(var i = 2; i < parseInt(Math.sqrt(num)); i++)
+            if(num % i === 0) return false;
+        return num > 1;
+    }
+    setTimeout()
+</script>
+
+</body>
+</html>

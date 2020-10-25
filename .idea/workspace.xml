@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81005ba2-93e4-4545-9f1e-42d73615e9cc" name="Default Changelist" comment="" />
+    <list default="true" id="81005ba2-93e4-4545-9f1e-42d73615e9cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bảng-cửu-chương.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1imekDa0aZkhTMrUT2nrjq1FjZq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/chương10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chương12" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,7 +49,10 @@
       <option name="presentableId" value="Default" />
       <updated>1602517336308</updated>
       <workItem from="1602517337377" duration="2775000" />
-      <workItem from="1602554150444" duration="515000" />
+      <workItem from="1602554150444" duration="5238000" />
+      <workItem from="1602577940257" duration="5142000" />
+      <workItem from="1602602489827" duration="594000" />
+      <workItem from="1602638388678" duration="1967000" />
     </task>
     <servers />
   </component>
@@ -50,9 +60,13 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="720" y="126" key="FileChooserDialogImpl" timestamp="1602520950120">
+    <state x="720" y="126" key="FileChooserDialogImpl" timestamp="1602646918094">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="720" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1602520950120" />
+    <state x="720" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1602646918094" />
+    <state x="694" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1602578619859">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="694" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1602578619859" />
   </component>
 </project>

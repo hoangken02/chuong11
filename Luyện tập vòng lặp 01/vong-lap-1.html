@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1</title>
+</head>
+<style>
+    fieldset{
+        display: inline-block;
+    }
+</style>
+<body>
+<!--Unit 1-->
+<fieldset>
+    <legend>Unit 1</legend>
+    <label for="getInput">Nhập số lần lặp tối đa</label><br>
+    <input type="number" id="getInput">
+    <button onclick="Unit1()">Submit!</button>
+    <p id="showMessage"></p>
+</fieldset>
+<!--Unit 2-->
+<fieldset>
+    <legend>Unit 2</legend>
+    <button onclick="temperature()">Temperature</button>
+</fieldset>
+<!--Unit 3-->
+<fieldset>
+    <legend>Unit 3</legend>
+    <button onclick="unit3(20)">Fibonacci</button>
+</fieldset>
+<!--Unit 4-->
+<fieldset>
+
+</fieldset>
+<!--Unit 5-->
+<fieldset>
+    <legend>Unit 5</legend>
+</fieldset>
+<script>
+    //Unit 1
+    function Unit1() {
+        let count = document.getElementById("getInput").value;
+        for (let i = 0; i < count; i++) {
+            if (i == count -1){
+                document.getElementById("showMessage").innerHTML = "đã hoàn thành " + i +" lần";
+            }
+        }
+    }
+    //Unit 2
+    function temperature() {
+        do{
+            var temp = prompt("Nhập nhiệt độ");
+            console.log(temp);
+            if (temp > 100){
+                alert("Nhiệt độ trên 100 độ, hãy giảm nhiệt độ xuống");
+            } else if (temp < 20) {
+                alert("Nhiệt độ dưới 20 độ, hãy tăng nhiệt độ lên");
+            } else {
+                alert("Nhiệt độ thích hợp");
+            }
+
+        }while(temp <100 || temp >20);
+    }
+    //Unit 3
+    function unit3(num) {
+        document.write(fibonacci(num));
+    }
+    //Unit 4
+
+    //Unit 5
+
+    //Fibonacci
+    function fibonacci(maxLoop) {
+        let num1 = 0;
+        let num2 = 1;
+        let num3 = 0;
+        let result = ''
+        for (let i = 0; i < maxLoop; i++) {
+            if(num3 == 0){
+                num3 = num1 + num2;
+            } else {
+                num3 = num1 + num2;
+                num1 = num2;
+                num2 = num3;
+            }
+            if (result == ""){
+                result = num3;
+            } else {
+                result = result + "+" + num3;
+            }
+        }
+        return result;
+    }
+</script>
+</body>
+</html>
